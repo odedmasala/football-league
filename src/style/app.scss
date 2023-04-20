@@ -1,0 +1,32 @@
+@import "./leagueTabs", "./teamsList", "./styleService";
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #d3d9d2;
+}
+.html-container {
+  @include container(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+.body-container {
+  @include container;
+  // height: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-container {
+  .uefa-logo {
+    width: 70px;
+    margin-right: 10px;
+  }
+  @include container;
+  text-align: center;
+  font-family: $font-family;
+}
